@@ -1,5 +1,8 @@
 # Dealership Inventory Optimization Dashboard
 
+<img width="1065" alt="Dealership Dashboard Image" src="https://github.com/user-attachments/assets/ef6bffba-d694-4353-b50b-44ab45fc43db">
+
+
 ## Live Demo
 https://devancapps.github.io/dealership-dashboard/
 
