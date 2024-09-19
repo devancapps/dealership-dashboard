@@ -62,6 +62,13 @@ section.active {
     height: 400px;
 }
 
+.chart-container {
+    width: 70%;
+    max-width: 800px;
+    margin: 0 auto;
+    height: 400px;
+}
+
 footer {
     text-align: center;
     margin-top: 2rem;

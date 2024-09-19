@@ -33,6 +33,8 @@ function createInventoryChart() {
         },
         options: {
             responsive: true,
+            maintainAspectRatio: true,
+            aspectRatio: 2,
             plugins: {
                 title: {
                     display: true,
@@ -57,6 +59,8 @@ function createSalesChart() {
         },
         options: {
             responsive: true,
+            maintainAspectRatio: true,
+            aspectRatio: 2,
             scales: {
                 y: {
                     beginAtZero: true
@@ -87,6 +91,8 @@ function createTrendsChart() {
         },
         options: {
             responsive: true,
+            maintainAspectRatio: true,
+            aspectRatio: 2,
             scales: {
                 y: {
                     beginAtZero: true
