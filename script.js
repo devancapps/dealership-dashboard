@@ -33,9 +33,11 @@ function createInventoryChart() {
         },
         options: {
             responsive: true,
-            title: {
-                display: true,
-                text: 'Inventory Composition'
+            plugins: {
+                title: {
+                    display: true,
+                    text: 'Inventory Composition'
+                }
             }
         }
     });
@@ -60,9 +62,11 @@ function createSalesChart() {
                     beginAtZero: true
                 }
             },
-            title: {
-                display: true,
-                text: 'Monthly Sales Performance'
+            plugins: {
+                title: {
+                    display: true,
+                    text: 'Monthly Sales Performance'
+                }
             }
         }
     });
@@ -88,9 +92,11 @@ function createTrendsChart() {
                     beginAtZero: true
                 }
             },
-            title: {
-                display: true,
-                text: 'Market Demand Trends'
+            plugins: {
+                title: {
+                    display: true,
+                    text: 'Market Demand Trends'
+                }
             }
         }
     });
