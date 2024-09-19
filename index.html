@@ -3,37 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dealership Inventory Dashboard - Devan Capps</title>
+    <title>Comprehensive Dealership Dashboard - Devan Capps</title>
     <link rel="stylesheet" href="styles.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
     <header>
-        <h1>Dealership Inventory Optimization Dashboard</h1>
+        <h1>Comprehensive Dealership Dashboard</h1>
         <p>Developed by Devan Capps</p>
     </header>
     <nav>
-        <button id="inventoryBtn" class="active">Inventory</button>
+        <button id="overviewBtn" class="active">Overview</button>
+        <button id="inventoryBtn">Inventory</button>
         <button id="salesBtn">Sales</button>
-        <button id="trendsBtn">Trends</button>
+        <button id="customerBtn">Customer Insights</button>
+        <button id="serviceBtn">Service Department</button>
     </nav>
     <main>
-        <section id="inventorySection" class="active">
-            <h2>Inventory Composition</h2>
+        <section id="overviewSection" class="active">
+            <h2>Dealership Overview</h2>
             <div class="chart-container">
-                <canvas id="inventoryChart" class="chart"></canvas>
+                <canvas id="inventoryValueChart" class="chart"></canvas>
+            </div>
+            <div class="chart-container">
+                <canvas id="salesTrendChart" class="chart"></canvas>
+            </div>
+        </section>
+        <section id="inventorySection">
+            <h2>Inventory Analysis</h2>
+            <div class="chart-container">
+                <canvas id="inventoryCompositionChart" class="chart"></canvas>
+            </div>
+            <div class="chart-container">
+                <canvas id="inventoryValueDistributionChart" class="chart"></canvas>
             </div>
         </section>
         <section id="salesSection">
             <h2>Sales Performance</h2>
             <div class="chart-container">
-                <canvas id="salesChart" class="chart"></canvas>
+                <canvas id="monthlySalesChart" class="chart"></canvas>
+            </div>
+            <div class="chart-container">
+                <canvas id="topSellingModelsChart" class="chart"></canvas>
             </div>
         </section>
-        <section id="trendsSection">
-            <h2>Market Trends</h2>
+        <section id="customerSection">
+            <h2>Customer Insights</h2>
             <div class="chart-container">
-                <canvas id="trendsChart" class="chart"></canvas>
+                <canvas id="customerSatisfactionChart" class="chart"></canvas>
+            </div>
+            <div class="chart-container">
+                <canvas id="marketTrendsChart" class="chart"></canvas>
+            </div>
+        </section>
+        <section id="serviceSection">
+            <h2>Service Department Performance</h2>
+            <div class="chart-container">
+                <canvas id="serviceAppointmentsChart" class="chart"></canvas>
+            </div>
+            <div class="chart-container">
+                <canvas id="serviceRevenueChart" class="chart"></canvas>
             </div>
         </section>
     </main>
