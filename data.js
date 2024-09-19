@@ -42,10 +42,10 @@ const topSellingModels = [
 ];
 
 const serviceData = [
-    { month: 'Jan', appointments: 200, revenue: 100000 },
-    { month: 'Feb', appointments: 220, revenue: 110000 },
+    { month: 'Jan', appointments: 220, revenue: 110000 },
+    { month: 'Feb', appointments: 200, revenue: 100000 },
     { month: 'Mar', appointments: 240, revenue: 120000 },
-    { month: 'Apr', appointments: 260, revenue: 130000 },
-    { month: 'May', appointments: 280, revenue: 140000 },
-    { month: 'Jun', appointments: 300, revenue: 150000 }
+    { month: 'Apr', appointments: 280, revenue: 140000 },
+    { month: 'May', appointments: 260, revenue: 130000 },
+    { month: 'Jun', appointments: 240, revenue: 120000 }
 ];

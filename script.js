@@ -165,7 +165,7 @@ function createMonthlySalesChart() {
 function createTopSellingModelsChart() {
     const ctx = document.getElementById('topSellingModelsChart').getContext('2d');
     new Chart(ctx, {
-        type: 'horizontalBar',
+        type: 'bar',
         data: {
             labels: topSellingModels.map(item => item.model),
             datasets: [{
@@ -178,6 +178,7 @@ function createTopSellingModelsChart() {
             responsive: true,
             maintainAspectRatio: true,
             aspectRatio: 2,
+            indexAxis: 'y', // Horizontal bar chart
             plugins: {
                 title: {
                     display: true,
