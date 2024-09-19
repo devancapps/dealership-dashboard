@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dealership Inventory Dashboard - Devan Capps</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
     <header>
@@ -19,22 +20,21 @@
     <main>
         <section id="inventorySection" class="active">
             <h2>Inventory Composition</h2>
-            <div id="inventoryChart" class="chart"></div>
+            <canvas id="inventoryChart" class="chart"></canvas>
         </section>
         <section id="salesSection">
             <h2>Sales Performance</h2>
-            <div id="salesChart" class="chart"></div>
+            <canvas id="salesChart" class="chart"></canvas>
         </section>
         <section id="trendsSection">
             <h2>Market Trends</h2>
-            <div id="trendsChart" class="chart"></div>
+            <canvas id="trendsChart" class="chart"></canvas>
         </section>
     </main>
     <footer>
         <p>Created as part of the Dealership Inventory Optimization project</p>
         <p>Skills: JavaScript, HTML/CSS, Data Visualization, User Interface Design</p>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="data.js"></script>
     <script src="script.js"></script>
 </body>
