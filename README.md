@@ -7,7 +7,7 @@
 https://devancapps.github.io/dealership-dashboard/
 
 ## Overview
-This project is a web-based dashboard for optimizing dealership inventory. It visualizes key metrics related to inventory composition, sales performance, and market trends. The dashboard is built using vanilla JavaScript, HTML, and CSS, demonstrating proficiency in front-end web development and data visualization.
+This project is a web-based dashboard for optimizing dealership inventory. It visualizes key metrics related to inventory composition, sales performance, and market trends. The dashboard is built using vanilla JavaScript, HTML, and CSS, demonstrating proficiency in both front-end web development and data visualization.
 
 ## Features
 - Interactive charts for inventory composition, sales performance, and market trends
